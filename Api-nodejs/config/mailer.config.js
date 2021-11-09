@@ -18,7 +18,7 @@ module.exports.sendValidationEmail = (user) =>{
             html: `
                     <h1>Welcome to test </h1>
                     <p>To activate your account</p>
-                    <a href="http://localhost:8000/api/users/${user.id}/activate">click here</a>    
+                    <a href="https://api-nodejs-fernanda.herokuapp.com/api/users/${user.id}/activate">click here</a>    
 
                 `,
         })
