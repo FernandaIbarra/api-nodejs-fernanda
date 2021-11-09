@@ -11,15 +11,26 @@
 				{
 					"name": "Get Posts",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTg5YzQzODhkYjI1ODM0YTZjODQ2OTMiLCJleHAiOjE2MzY0MjIyNjcsImlhdCI6MTYzNjQxODY2N30.mdBbRDYmlcMIQkhv2CeUR1CVoYkxbc3w6CYEkCF1VH4",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8000/api/posts",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/posts",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"posts"
@@ -31,6 +42,16 @@
 				{
 					"name": "Update Post",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTg5YzQzODhkYjI1ODM0YTZjODQ2OTMiLCJleHAiOjE2MzY0MjIyNjcsImlhdCI6MTYzNjQxODY2N30.mdBbRDYmlcMIQkhv2CeUR1CVoYkxbc3w6CYEkCF1VH4",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PATCH",
 						"header": [],
 						"body": {
@@ -43,12 +64,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/api/posts/617b180f09f9fbebfe1658e1",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/posts/617b180f09f9fbebfe1658e1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"posts",
@@ -61,15 +83,26 @@
 				{
 					"name": "Get post",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTg5YzQzODhkYjI1ODM0YTZjODQ2OTMiLCJleHAiOjE2MzY0MjIyNjcsImlhdCI6MTYzNjQxODY2N30.mdBbRDYmlcMIQkhv2CeUR1CVoYkxbc3w6CYEkCF1VH4",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8000/api/posts/617b16b122ee8ba09da6318f",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/posts/617b16b122ee8ba09da6318f",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"posts",
@@ -82,15 +115,26 @@
 				{
 					"name": "Delete Post",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTg5YzQzODhkYjI1ODM0YTZjODQ2OTMiLCJleHAiOjE2MzY0MjIyNjcsImlhdCI6MTYzNjQxODY2N30.mdBbRDYmlcMIQkhv2CeUR1CVoYkxbc3w6CYEkCF1VH4",
+									"type": "string"
+								}
+							]
+						},
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8000/api/posts/617b180f09f9fbebfe1658e1",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/posts/617b180f09f9fbebfe1658e1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"posts",
@@ -103,6 +147,16 @@
 				{
 					"name": "Create Post",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTg5YzQzODhkYjI1ODM0YTZjODQ2OTMiLCJleHAiOjE2MzY0MjIyNjcsImlhdCI6MTYzNjQxODY2N30.mdBbRDYmlcMIQkhv2CeUR1CVoYkxbc3w6CYEkCF1VH4",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -115,12 +169,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/api/posts",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/posts",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"posts"
@@ -140,21 +195,43 @@
 						"method": "POST",
 						"header": [],
 						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"name\": \"zelda\",\n    \"email\": \"masterfullstackdev@gmail.com\",\n    \"password\": \"password12\",\n    \"bio\": \"bio test\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "zelda heroku",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password12",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "masterfullstackdev@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": "/Users/mibarra/Documents/Personal/pics/Avatar.jpg"
+								},
+								{
+									"key": "bio",
+									"value": "heroku test",
+									"type": "text"
 								}
-							}
+							]
 						},
 						"url": {
-							"raw": "http://localhost:8000/api/users",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/users",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"users"
@@ -170,7 +247,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"test2021@gmail.com\",\n    \"password\": \"password12\"\n}",
+							"raw": "{\n    \"email\": \"masterfullstackdev@gmail.com\",\n    \"password\": \"password12\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -178,12 +255,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8000/api/login",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/login",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"login"
@@ -198,12 +276,13 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8000/api/logout",
-							"protocol": "http",
+							"raw": "https://api-nodejs-fernanda.herokuapp.com/api/logout",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"api-nodejs-fernanda",
+								"herokuapp",
+								"com"
 							],
-							"port": "8000",
 							"path": [
 								"api",
 								"logout"
